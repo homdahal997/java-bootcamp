@@ -11,7 +11,7 @@ public class Week2Example {
         }else if (age >= 13){
             System.out.println("You are a teenager");
         } else if (age == 12) {
-            System.out.println(" You are a preteen");
+            System.out.println(" You are a pre-teen");
         }else {
             System.out.println(" You are a child");
         }
