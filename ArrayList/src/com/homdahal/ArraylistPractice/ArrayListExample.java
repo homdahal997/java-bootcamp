@@ -9,25 +9,19 @@ public class ArrayListExample {
         ArrayList<String> names = new ArrayList<>();
 
         // add John to Arraylist
-        names.add("John");
+        names.add("Roise");
 
         // add Harry to Arraylist
-        names.add("Harry");
+        names.add("Smith");
 
         // add Niall to Arraylist
-        names.add("Niall");
-
-        // take input from the user
-        Scanner input = new Scanner(System.in);
-        int index = input.nextInt();
-
-        // access the element at index
-        String element = names.get(index);
-
-        // print the element
-        System.out.println(element);
-
-        input.close();
+        names.add("James");
+        // Printing original arrayList
+        System.out.println(" Original arrayList - " + names);
+        // Changing element at index 1
+        names.set(1, "Steve");
+        // Printing updated Arraylist
+        System.out.println(" Updated ArrayList - " + names);
 
     }
 }
