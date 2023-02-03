@@ -19,8 +19,12 @@ public class ArrayListExample {
 
         // Printing original arrayList
         System.out.println(" Original arrayList - " + names);
-        // Removing element at index 1
-        names.remove(1);
+        System.out.println(" Enter the index to be removed from the array");
+
+        Scanner scanner = new Scanner(System.in);
+        int index = scanner.nextInt();
+        names.remove(index);
+
         // Printing updated Arraylist
         System.out.println(" Updated ArrayList - " + names);
 
