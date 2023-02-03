@@ -1,21 +1,25 @@
 package com.homdahal.ArraylistPractice;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class ArratyListPrimitiveDataTypes {
     public static void main(String[] args) {
         // creating arrayList of primitive Data Types
-        ArrayList<Integer> numbers = new ArrayList<>();
+        ArrayList<Double> numbers = new ArrayList<>();
+        Scanner scanner = new Scanner(System.in);
+        double num1 = scanner.nextDouble();
+        double num2 = scanner.nextDouble();
+        double num3 = scanner.nextDouble();
+        double num4 = scanner.nextDouble();
         // add numbers to above array using .add
-        numbers.add(100);
-        numbers.add(201);
-        numbers.add(300);
-        numbers.add(411);
+        numbers.add(num1);
+        numbers.add(num2);
+        numbers.add(num3);
+        numbers.add(num4);
 
         for (int i = 0; i <=3 ; i++) {
-            if (numbers.get(i)% 2 != 0){
-                System.out.println(numbers.get(i));
-            }
+            System.out.println(numbers.get(i));
 
         }
 
