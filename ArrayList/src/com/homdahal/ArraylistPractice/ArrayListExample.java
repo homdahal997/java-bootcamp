@@ -17,15 +17,10 @@ public class ArrayListExample {
         // add Niall to Arraylist
         names.add("Howard");
 
-        // take String input from the user
-        Scanner input = new Scanner(System.in);
-        String name1 = input.nextLine();
-
-
         // Printing original arrayList
         System.out.println(" Original arrayList - " + names);
-        // Changing element at index 1
-        names.set(2, name1);
+        // Removing element at index 1
+        names.remove(1);
         // Printing updated Arraylist
         System.out.println(" Updated ArrayList - " + names);
 
