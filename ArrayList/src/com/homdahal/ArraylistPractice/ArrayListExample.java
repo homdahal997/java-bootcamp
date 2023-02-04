@@ -27,6 +27,7 @@ public class ArrayListExample {
 
         // Printing updated Arraylist
         System.out.println(" Updated ArrayList - " + names);
+        System.out.println(" Another Updated ArrayList " + names);
 
     }
 }
